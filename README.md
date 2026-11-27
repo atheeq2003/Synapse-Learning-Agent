@@ -58,7 +58,8 @@ model never marks a concept as learned on its own, so every score is consistent 
 | Jobs        | Celery                                                                        |
 | LLM         | Claude (Anthropic) behind a provider abstraction                              |
 | Quality     | pytest, Vitest, Playwright, an LLM evaluation suite in CI                     |
-| Ops         | Docker, GitHub Actions, OpenTelemetry, Sentry                                 |
+| Observability | OpenTelemetry traces, Sentry errors, Langfuse LLM traces and cost, structured logs |
+| Ops         | Docker, GitHub Actions                                                        |
 
 ## Getting started
 
