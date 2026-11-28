@@ -41,12 +41,15 @@ model never marks a concept as learned on its own, so every score is consistent 
 
 | Release | Scope                                                                                  |
 | ------- | -------------------------------------------------------------------------------------- |
-| v0.1    | Topic → streamed prerequisite map; tutor chat per concept; mark concepts as known       |
+| v0.1    | Topic → streamed prerequisite map; tutor chat per concept; mark concepts as known; per-user LLM budgets |
 | v0.2    | One personal memory across all chats; knowledge state on the map; export and delete     |
 | v0.3    | Relate engine: explanations built on what you already learned                          |
-| v0.4    | Quizzes, explain-back, mastery scores, spaced-repetition reviews and reminders          |
-| v0.5    | Organizations, role-based access, SSO, audit log, self-hosting with Docker and Helm     |
-| v1.0    | Learning dashboard, billing for the hosted plan, load-tested and documented             |
+| v0.4    | Quizzes, explain-back, mastery scores, spaced-repetition reviews, reminders, learning dashboard |
+| v0.5    | Self-hosting with Docker Compose, bring your own API key, full audit log, hardening      |
+| v1.0    | Load-tested with published SLOs, security review, docs site, public demo account        |
+
+Synapse is built for individual learners: your learning data belongs to you alone, and is never
+shared with or owned by a team or organization.
 
 ## Tech stack
 
